@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="to-do_list.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do list</h1>
+        <div class="row">
+        <div class="input-field">
+            <input type="text" id="task" placeholder="Add a task">
+            <button onclick="addTask()">Add</button>
+        </div>
+        <div class="clear-button-container">
+            <button id="clear-all-button" onclick="clearAllTasks()">Clear All</button>
+        </div>
+    </div>
+        <div class="text"></div>
+    </div>
+    <script src="to-do_list.js"></script>
+    <script src="server.js"></script>
+</body>
+</html>
